@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #cadbc9;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 80px;
+    position: fixed;
+    top: 20px;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    background-color: #8bde6b;
+    z-index: 1;
+}
+
+.age-calculator {
+    background-color: #8bde6b;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin-top: 200px; /* To push content below the fixed heading */
+}
+
+h2 {
+    margin-bottom: 50px;
+    font-size: 80px;
+}
+
+form {
+    margin-bottom: 60px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 30px; /* Increased font size */
+}
+
+input[type="date"] {
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 20px 40px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+#result {
+    font-size: 50px;
+    color: #333;
+}
